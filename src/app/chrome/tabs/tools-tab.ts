@@ -207,6 +207,12 @@ const TEMPLATE = /* html */ `
       ${t("Minimap")}
     </button>
   </div>
+  <div class="separator">${t("Play")}</div>
+  <div class="grid">
+    <button id="openStrategyGame" data-tip="${t("Play a turn-based strategy game on this map, alone or with friends, against bot states")}">
+      ${t("Strategy game")}
+    </button>
+  </div>
   <div class="separator">${t("Create")}</div>
   <div class="grid">
     <button id="openSubmapTool" data-tip="${t("Click to generate a submap from the current viewport")}">${t("Submap")}</button>
