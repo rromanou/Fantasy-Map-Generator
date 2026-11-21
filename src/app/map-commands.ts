@@ -238,6 +238,13 @@ export const MAP_COMMANDS: MapCommand[] = [
     run: () => Controllers.MilitaryOverview.open()
   },
   {
+    id: "openStrategyGame",
+    name: t("Strategy game"),
+    link: true,
+    aliases: "play war hoi4 conquest bots turns",
+    run: () => Controllers.StrategyMode.open()
+  },
+  {
     id: "regiments",
     name: t("Regiments Overview"),
     link: true,

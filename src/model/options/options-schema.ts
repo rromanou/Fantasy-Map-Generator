@@ -24,6 +24,7 @@ const EDIT_MODES = [
   "assignGoods",
   "addMarket",
   "annex",
+  "strategy",
   "wrap"
 ] as const;
 

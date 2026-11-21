@@ -86,6 +86,7 @@ export const Controllers = createRegistry(
     StabilityOverview: () => import("@/controllers/political/stability-overview").then(m => m.StabilityOverview),
     StateBudgetEditor: () =>
       import("@/controllers/economy/entities/state-budget-editor").then(m => m.StateBudgetEditor),
+    StrategyMode: () => import("@/controllers/political/strategy-game").then(m => m.StrategyMode),
     StatesEditor: () => import("@/controllers/political/states-editor").then(m => m.StatesEditor),
     StyleEditor: () => import("@/controllers/style").then(m => m.StyleEditor),
     StylePresetsEditor: () => import("@/controllers/style/style-preset").then(m => m.StylePreset),
